@@ -1,38 +1,82 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f6f6f6;
+}
+.form_container {
+  background-color: #fff;
+  padding: 20px 30px;
+  margin: 0px auto;
+  width: 300px;
+  margin-top: 50px;
+}
+.form_container h2 {
   text-align: center;
+  color: #232323;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form_container .box {
+  margin-top: 10px;
+  width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form_container .box input {
+  width: 100%;
+  padding: 10px 0px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #868686;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form_container button {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  background-color: #2196f3;
+  color: #fff;
+  cursor: pointer;
+}
+.database {
+  padding: 20px 40px;
+  width: 100%;
+}
+.database h2 {
+  color: #232323;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.database .container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  max-width: 100%;
 }
-
-.App-link {
-  color: #61dafb;
+.database .container .box {
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-left: 15px;
+  background-color: #fff;
+  border-radius: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.database .container .box h3 {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #232323;
+}
+.database .container .box button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 20px;
 }
